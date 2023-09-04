@@ -1,0 +1,139 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* .........Nav Related style........... */
+
+.header{
+    
+    background-color: #FFF;
+}
+
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 18px;
+  
+    font-weight: 500;
+   
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: certer;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+.primary-color{
+    color: #ff42a5;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* .............Banner Related style.............. */
+
+
+.banner{
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn-primary{
+    border-radius: 30px;
+    background-color: #ff42a5;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px 40px;
+}
+.btn-secondary{
+    border-radius: 30px;
+    background-color: #4EC5F7;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px 40px;
+    margin-top: 15px;
+}
+.heading-title{
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+.main-title{
+    margin-bottom: 13px;
+    margin-top: -49px;
+    font-size: 80px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .........Responsive style............. */
+@media screen and (max-width:576px) {
+    .banner,nav{
+        flex-direction: column;
+    }
+    .banner img{
+        width: 100%;
+    }
+        
+
+    
+}
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:960px) {
+
+    
+
+
+}
