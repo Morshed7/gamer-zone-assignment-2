@@ -152,6 +152,7 @@ nav>ul{
         justify-content: center;
         margin-top: 50px;
         gap: 230px;
+        margin-bottom: 50px;
     }
        
     
@@ -169,6 +170,26 @@ nav>ul{
         line-height: 30px;
         
     }
+
+/* ............image icon  Related style.............. */
+
+    .internal-image{
+        
+        display: flex;
+        gap: 10px;
+    }
+    .image-icon-section{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 1rem;
+        max-width: 1140px;
+        margin: 0 auto;
+        padding-left: 217px;
+        padding-right: 173px;
+
+    }
+
+
 
 /* ............Footer Related style.............. */
     
@@ -253,6 +274,7 @@ nav>ul{
         text-align: center;
         padding-bottom: 50px;
         padding-top: 20px;
+        
     }
 
 
