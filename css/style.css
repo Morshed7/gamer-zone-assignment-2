@@ -23,6 +23,34 @@ li a{
     text-decoration: none;
     color: black;
 }
+.fram{
+    height: 36px;
+    
+    margin-left: 92px;
+
+}
+.icon{
+    height: 15px;
+    width: 18px;
+}
+.music-icon{
+    height: 15px;
+    width: 20px; 
+}
+.icon-button{
+    border-radius: 5px;
+    background-color: #e7e6e9;
+    border: 0;
+    font-size: 20px;
+    padding: 20px 40px;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.icon-button:hover{
+    background-color: #ff42a5;
+}
 
 
 nav{
@@ -169,9 +197,17 @@ nav>ul{
 
 /* .........Responsive style............. */
 @media screen and (max-width:576px) {
-    .banner,nav, .online-img, .play-instanly{
+    .banner,nav,.online-img, .play-instanly{
         flex-direction: column;
     }
+    .banner{
+        padding: 20px;
+    }
+    nav>ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+
 
     .banner img{
         width: 100%;
@@ -183,11 +219,11 @@ nav>ul{
     }
     .heading-title {
        text-align: center;
-
+}
+.online-img {
+    padding: 60px;
 
 }
-
-
 
 
 
