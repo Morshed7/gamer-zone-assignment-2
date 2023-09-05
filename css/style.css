@@ -168,12 +168,92 @@ nav>ul{
         font-weight: 400;
         line-height: 30px;
         
+    }
+
+/* ............Footer Related style.............. */
+    
+.footer{
+    background-color: black;
+}
+.second-span{
+    counter-reset: white;
+}
+    .footer-li ul{
+       display: flex;
+       max-width: 1140px;
+       margin: 0 auto;
+       text-align: center;
+       margin-left: 388px;
+       margin-top: -15px;
         
+    }
+    .footer-title2{
+        color: white;
     }
 
 
+    .footer-title{
+        font-size: 45px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 120px;
+}
+    
+    .footer-li li{
+        list-style: none;
+        margin-right: 50px;
+        font-size: 18px;
+        font-weight: 500;
+       
+       
+    }
+    .footer-li li a{
+        display: flex;
+        color: white;
+        font-size: 16px;
+    }
 
+    .icon-image img{
+        width: 20px;
+        height: 25px;
+        
+        
+    }
+    .fa-brands, .fa-solid{
+        color: white;
+    }
 
+    .icon-image{
+        display: flex;
+        text-align: center;
+        margin-left: 520px;
+        gap: 40px;
+        font-size: 50px;
+        padding-top: 50px;
+    }
+    .footer-second-li{
+
+    }
+    .footer-second-li li a{
+        display: flex;
+        color: rgb(170, 164, 164);
+        font-size: 13px;
+    }
+    .footer-second-li ul{
+        display: flex;
+        max-width: 1140px;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 388px;
+        padding-top: 55px;
+        gap: 50px;
+    }
+    .footer-description{
+        color: rgb(170, 164, 164);
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
 
 
 
@@ -222,6 +302,7 @@ nav>ul{
 }
 .online-img {
     padding: 60px;
+}
 
 }
 
@@ -231,7 +312,10 @@ nav>ul{
 
     .banner,nav{
         flex-direction: column;
+        padding-left: 136px;
     }
 
-
+    nav {
+        margin: 50px;
+      }
 }
