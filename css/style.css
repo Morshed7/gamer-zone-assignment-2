@@ -51,6 +51,9 @@ nav>ul{
     align-items: center;
     justify-content: space-around;
 }
+.banner-discription{
+    color: #534C64;
+}
 .btn-primary{
     border-radius: 30px;
     background-color: #ff42a5;
