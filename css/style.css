@@ -188,6 +188,9 @@ nav>ul{
         padding-right: 173px;
 
     }
+    .internal-image h5:hover{
+        color:#ff42a5 ;
+    }
 
 
 
@@ -202,9 +205,9 @@ nav>ul{
     .footer-li ul{
        display: flex;
        max-width: 1140px;
-       margin: 0 auto;
+    
        text-align: center;
-       margin-left: 388px;
+       margin-left: 670px;
        margin-top: -15px;
         
     }
@@ -237,8 +240,7 @@ nav>ul{
     .icon-image img{
         width: 20px;
         height: 25px;
-        
-        
+       
     }
     .fa-brands, .fa-solid{
         color: white;
@@ -247,14 +249,12 @@ nav>ul{
     .icon-image{
         display: flex;
         text-align: center;
-        margin-left: 520px;
+        margin-left: 840px;
         gap: 40px;
         font-size: 50px;
         padding-top: 50px;
     }
-    .footer-second-li{
 
-    }
     .footer-second-li li a{
         display: flex;
         color: rgb(170, 164, 164);
@@ -265,7 +265,7 @@ nav>ul{
         max-width: 1140px;
         margin: 0 auto;
         text-align: center;
-        margin-left: 388px;
+        margin-left: 730px;
         padding-top: 55px;
         gap: 50px;
     }
@@ -274,42 +274,32 @@ nav>ul{
         text-align: center;
         padding-bottom: 50px;
         padding-top: 20px;
-        
+        margin-left: 200px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* .........Responsive style............. */
 @media screen and (max-width:576px) {
-    .banner,nav,.online-img, .play-instanly{
+    .banner,nav,.online-img,.play-instanly 
+    {
         flex-direction: column;
     }
+    
     .banner{
         padding: 20px;
     }
+
+    .banner, nav {
+        flex-direction: column;
+        padding-left: 0px;
+      }
     nav>ul{
         flex-direction: column;
         gap: 20px;
     }
-
+    .play-instantly-text{
+        margin-top: -256px;
+    }
 
     .banner img{
         width: 100%;
@@ -326,7 +316,17 @@ nav>ul{
     padding: 60px;
 }
 
+.image-icon-section{
+    
+    grid-template-columns: repeat(2,2fr);
 }
+
+.internal-image{
+    width: 100%;
+}
+}
+
+
 
 
 
@@ -340,4 +340,9 @@ nav>ul{
     nav {
         margin: 50px;
       }
+
+      .play-instanly 
+      {
+          flex-direction: column;
+      } 
 }
