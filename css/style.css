@@ -71,7 +71,7 @@ nav>ul{
 .heading-title{
     font-size: 44px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     
 }
 .main-title{
@@ -114,6 +114,32 @@ nav>ul{
         justify-content: center;
     }
 
+/* .............play-instanly Related style.............. */
+
+    .play-instanly{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 230px;
+    }
+       
+    
+    .play-instantly-text{
+        padding-top: 200px;
+    }
+              
+
+    .play-instantly-discription{
+        color: #534C64;
+        text-align: center;
+       
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        
+        
+    }
+
 
 
 
@@ -140,7 +166,7 @@ nav>ul{
 
 /* .........Responsive style............. */
 @media screen and (max-width:576px) {
-    .banner,nav, .online-img{
+    .banner,nav, .online-img, .play-instanly{
         flex-direction: column;
     }
 
@@ -148,7 +174,14 @@ nav>ul{
         width: 100%;
     }  
     
-   
+    .play-instanly-img{
+        width: 100%;
+        margin-top: -143px;
+    }
+    .heading-title {
+       text-align: center;
+
+
 }
 
 
